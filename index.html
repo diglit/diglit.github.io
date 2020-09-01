@@ -35,6 +35,7 @@
                 </div>
             </div>
         </nav>
+
         <!-- Masthead-->
         <header class="masthead">
             <div class="container h-100">
@@ -44,7 +45,7 @@
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">A nonprofit that helps small organizations improve their operational efficiency and effectiveness through <em>dig</em>ital <em>lit</em>eracy</p>
+                        <p id="subtitle" class="text-white-75 font-weight-light mb-5">A nonprofit that helps small organizations improve their operational efficiency and effectiveness through <em>dig</em>ital <em>lit</em>eracy</p>
                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
                     </div>
                 </div>
@@ -57,7 +58,7 @@
                     <div class="col-lg-8 text-center">
                         <h2 class="text-white mt-0">What we do</h2>
                         <hr class="divider light my-4" />
-                        <p class="text-white-80 mb-4">We are a research, engineering, and operations organization that helps nonprofits take advantage of the plethora of free and low cost technologies already available to them. We do this by analyzing the technical capabilities, workflows and information flows of an organization. We make technology recommendations based on the analysis, and then implement those recommendations if we are given the green light. Our services are free.</p>
+                        <p id="whatwedo" class="text-white-80 mb-4">We are a research, engineering, and operations organization that helps nonprofits take advantage of the plethora of free and low cost technologies already available to them. We do this by analyzing the technical capabilities, workflows and information flows of an organization. We make technology recommendations based on the analysis, and then implement those recommendations if we are given the green light. Our services are free.</p>
                         <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
                     </div>
                 </div>
@@ -69,25 +70,32 @@
                 <h2 class="text-center mt-0">Key Services</h2>
                 <hr class="divider my-4" />
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 text-center">
+                    <div class="col-lg-6 col-md-6 text-center">
                         <div class="mt-5">
                             <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Repetitive tasks</h3>
-                            <p class="text-muted mb-0">We can help organizations remove repetitive tasks so they can focus on the things that matter</p>
+                            <h3 id="keyservice1title" class="h4 mb-2">Repetitive tasks</h3>
+                            <p id="keyservice1content" class="text-muted mb-0">We can help organizations remove repetitive tasks so they can focus on the things that matter</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 text-center">
+                    <div class="col-lg-6 col-md-6 text-center">
                         <div class="mt-5">
                             <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Data Intake/Storage/Analysis</h3>
-                            <p class="text-muted mb-0">We can help organizations streamline their data intake, storage, and analysis process while maintaining privacy and security</p>
+                            <h3 id="keyservice2title" class="h4 mb-2">Data Intake/Storage/Analysis</h3>
+                            <p id="keyservice2content" class="text-muted mb-0">We can help organizations streamline their data intake, storage, and analysis process while maintaining privacy and security</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 text-center">
+                    <div class="col-lg-6 col-md-6 text-center">
                         <div class="mt-5">
                             <i class="fas fa-4x fa-users text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Member/Volunteer/Donor Management</h3>
-                            <p class="text-muted mb-0">We can help organizations simplify the process of managing their members, volunteers, and donors</p>
+                            <h3 id="keyservice3title" class="h4 mb-2">Member/Volunteer/Donor Management</h3>
+                            <p id="keyservice3content" class="text-muted mb-0">We can help organizations simplify the process of managing their members, volunteers, and donors</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-users text-primary mb-4"></i>
+                            <h3 id="keyservice4title" class="h4 mb-2">Member/Volunteer/Donor Management</h3>
+                            <p id="keyservice4content" class="text-muted mb-0">We can help organizations simplify the process of managing their members, volunteers, and donors</p>
                         </div>
                     </div>
                 </div>
@@ -169,7 +177,7 @@
                         <h2 class="mt-0">Let's Get In Touch!</h2>
                         <hr class="divider my-4" />
                         <p class="text-muted mb-5">Questions or inquiries? Fill out the form below</p>
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKEkFa7MYYrkq0vuUi_Ono1mPwPTYnmmGKqb_NZSS0MrTePQ/viewform?embedded=true" width="640" height="677" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        <iframe src="" id="googleiframe" width="640" height="677" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                     </div>
                 </div>
             </div>
@@ -207,6 +215,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/content.js"></script>
+        <script src="js/ab.js"></script>
         <script id="__bs_script__">//<![CDATA[
             document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.7'><\/script>".replace("HOST", location.hostname));
         //]]></script>

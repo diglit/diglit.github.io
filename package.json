@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/edisonnp/edisonnp.github.io#readme",
   "dependencies": {
+    "googleapis": "^39.2.0",
     "gulp": "^4.0.2",
     "gulp-livereload": "^4.0.2"
   },
